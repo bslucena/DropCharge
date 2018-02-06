@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29C792DB2029BE3B00A55CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C792DA2029BE3B00A55CEA /* AppDelegate.swift */; };
+		29C792DD2029BE3B00A55CEA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29C792DC2029BE3B00A55CEA /* GameScene.sks */; };
+		29C792DF2029BE3B00A55CEA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 29C792DE2029BE3B00A55CEA /* Actions.sks */; };
+		29C792E12029BE3B00A55CEA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C792E02029BE3B00A55CEA /* GameScene.swift */; };
+		29C792E32029BE3B00A55CEA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C792E22029BE3B00A55CEA /* GameViewController.swift */; };
+		29C792E62029BE3B00A55CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C792E42029BE3B00A55CEA /* Main.storyboard */; };
+		29C792E82029BE3B00A55CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C792E72029BE3B00A55CEA /* Assets.xcassets */; };
+		29C792EB2029BE3B00A55CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C792E92029BE3B00A55CEA /* LaunchScreen.storyboard */; };
+		29C792F62029BE3B00A55CEA /* DropChargeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C792F52029BE3B00A55CEA /* DropChargeTests.swift */; };
+		29C793012029BE3B00A55CEA /* DropChargeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C793002029BE3B00A55CEA /* DropChargeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29C792F22029BE3B00A55CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C792CF2029BE3B00A55CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C792D62029BE3B00A55CEA;
+			remoteInfo = DropCharge;
+		};
+		29C792FD2029BE3B00A55CEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29C792CF2029BE3B00A55CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29C792D62029BE3B00A55CEA;
+			remoteInfo = DropCharge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29C792D72029BE3B00A55CEA /* DropCharge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropCharge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C792DA2029BE3B00A55CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29C792DC2029BE3B00A55CEA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		29C792DE2029BE3B00A55CEA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		29C792E02029BE3B00A55CEA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		29C792E22029BE3B00A55CEA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		29C792E52029BE3B00A55CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29C792E72029BE3B00A55CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29C792EA2029BE3B00A55CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29C792EC2029BE3B00A55CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C792F12029BE3B00A55CEA /* DropChargeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropChargeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C792F52029BE3B00A55CEA /* DropChargeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropChargeTests.swift; sourceTree = "<group>"; };
+		29C792F72029BE3B00A55CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C792FC2029BE3B00A55CEA /* DropChargeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropChargeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29C793002029BE3B00A55CEA /* DropChargeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropChargeUITests.swift; sourceTree = "<group>"; };
+		29C793022029BE3B00A55CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29C792D42029BE3B00A55CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792EE2029BE3B00A55CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792F92029BE3B00A55CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29C792CE2029BE3B00A55CEA = {
+			isa = PBXGroup;
+			children = (
+				29C792D92029BE3B00A55CEA /* DropCharge */,
+				29C792F42029BE3B00A55CEA /* DropChargeTests */,
+				29C792FF2029BE3B00A55CEA /* DropChargeUITests */,
+				29C792D82029BE3B00A55CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29C792D82029BE3B00A55CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29C792D72029BE3B00A55CEA /* DropCharge.app */,
+				29C792F12029BE3B00A55CEA /* DropChargeTests.xctest */,
+				29C792FC2029BE3B00A55CEA /* DropChargeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29C792D92029BE3B00A55CEA /* DropCharge */ = {
+			isa = PBXGroup;
+			children = (
+				29C792DA2029BE3B00A55CEA /* AppDelegate.swift */,
+				29C792DC2029BE3B00A55CEA /* GameScene.sks */,
+				29C792DE2029BE3B00A55CEA /* Actions.sks */,
+				29C792E02029BE3B00A55CEA /* GameScene.swift */,
+				29C792E22029BE3B00A55CEA /* GameViewController.swift */,
+				29C792E42029BE3B00A55CEA /* Main.storyboard */,
+				29C792E72029BE3B00A55CEA /* Assets.xcassets */,
+				29C792E92029BE3B00A55CEA /* LaunchScreen.storyboard */,
+				29C792EC2029BE3B00A55CEA /* Info.plist */,
+			);
+			path = DropCharge;
+			sourceTree = "<group>";
+		};
+		29C792F42029BE3B00A55CEA /* DropChargeTests */ = {
+			isa = PBXGroup;
+			children = (
+				29C792F52029BE3B00A55CEA /* DropChargeTests.swift */,
+				29C792F72029BE3B00A55CEA /* Info.plist */,
+			);
+			path = DropChargeTests;
+			sourceTree = "<group>";
+		};
+		29C792FF2029BE3B00A55CEA /* DropChargeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29C793002029BE3B00A55CEA /* DropChargeUITests.swift */,
+				29C793022029BE3B00A55CEA /* Info.plist */,
+			);
+			path = DropChargeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29C792D62029BE3B00A55CEA /* DropCharge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C793052029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropCharge" */;
+			buildPhases = (
+				29C792D32029BE3B00A55CEA /* Sources */,
+				29C792D42029BE3B00A55CEA /* Frameworks */,
+				29C792D52029BE3B00A55CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropCharge;
+			productName = DropCharge;
+			productReference = 29C792D72029BE3B00A55CEA /* DropCharge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29C792F02029BE3B00A55CEA /* DropChargeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C793082029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropChargeTests" */;
+			buildPhases = (
+				29C792ED2029BE3B00A55CEA /* Sources */,
+				29C792EE2029BE3B00A55CEA /* Frameworks */,
+				29C792EF2029BE3B00A55CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C792F32029BE3B00A55CEA /* PBXTargetDependency */,
+			);
+			name = DropChargeTests;
+			productName = DropChargeTests;
+			productReference = 29C792F12029BE3B00A55CEA /* DropChargeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29C792FB2029BE3B00A55CEA /* DropChargeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29C7930B2029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropChargeUITests" */;
+			buildPhases = (
+				29C792F82029BE3B00A55CEA /* Sources */,
+				29C792F92029BE3B00A55CEA /* Frameworks */,
+				29C792FA2029BE3B00A55CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29C792FE2029BE3B00A55CEA /* PBXTargetDependency */,
+			);
+			name = DropChargeUITests;
+			productName = DropChargeUITests;
+			productReference = 29C792FC2029BE3B00A55CEA /* DropChargeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29C792CF2029BE3B00A55CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Bernardo Sarto de Lucena";
+				TargetAttributes = {
+					29C792D62029BE3B00A55CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					29C792F02029BE3B00A55CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29C792D62029BE3B00A55CEA;
+					};
+					29C792FB2029BE3B00A55CEA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29C792D62029BE3B00A55CEA;
+					};
+				};
+			};
+			buildConfigurationList = 29C792D22029BE3B00A55CEA /* Build configuration list for PBXProject "DropCharge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29C792CE2029BE3B00A55CEA;
+			productRefGroup = 29C792D82029BE3B00A55CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29C792D62029BE3B00A55CEA /* DropCharge */,
+				29C792F02029BE3B00A55CEA /* DropChargeTests */,
+				29C792FB2029BE3B00A55CEA /* DropChargeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29C792D52029BE3B00A55CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C792E62029BE3B00A55CEA /* Main.storyboard in Resources */,
+				29C792DD2029BE3B00A55CEA /* GameScene.sks in Resources */,
+				29C792E82029BE3B00A55CEA /* Assets.xcassets in Resources */,
+				29C792EB2029BE3B00A55CEA /* LaunchScreen.storyboard in Resources */,
+				29C792DF2029BE3B00A55CEA /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792EF2029BE3B00A55CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792FA2029BE3B00A55CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29C792D32029BE3B00A55CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C792E12029BE3B00A55CEA /* GameScene.swift in Sources */,
+				29C792E32029BE3B00A55CEA /* GameViewController.swift in Sources */,
+				29C792DB2029BE3B00A55CEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792ED2029BE3B00A55CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C792F62029BE3B00A55CEA /* DropChargeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C792F82029BE3B00A55CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C793012029BE3B00A55CEA /* DropChargeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29C792F32029BE3B00A55CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C792D62029BE3B00A55CEA /* DropCharge */;
+			targetProxy = 29C792F22029BE3B00A55CEA /* PBXContainerItemProxy */;
+		};
+		29C792FE2029BE3B00A55CEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29C792D62029BE3B00A55CEA /* DropCharge */;
+			targetProxy = 29C792FD2029BE3B00A55CEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29C792E42029BE3B00A55CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C792E52029BE3B00A55CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29C792E92029BE3B00A55CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29C792EA2029BE3B00A55CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29C793032029BE3B00A55CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29C793042029BE3B00A55CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29C793062029BE3B00A55CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropCharge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropCharge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29C793072029BE3B00A55CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropCharge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropCharge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29C793092029BE3B00A55CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropChargeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropChargeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropCharge.app/DropCharge";
+			};
+			name = Debug;
+		};
+		29C7930A2029BE3B00A55CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropChargeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropChargeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropCharge.app/DropCharge";
+			};
+			name = Release;
+		};
+		29C7930C2029BE3B00A55CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropChargeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropChargeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DropCharge;
+			};
+			name = Debug;
+		};
+		29C7930D2029BE3B00A55CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7S38MGUL29;
+				INFOPLIST_FILE = DropChargeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = academy.DropChargeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DropCharge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29C792D22029BE3B00A55CEA /* Build configuration list for PBXProject "DropCharge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C793032029BE3B00A55CEA /* Debug */,
+				29C793042029BE3B00A55CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C793052029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropCharge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C793062029BE3B00A55CEA /* Debug */,
+				29C793072029BE3B00A55CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C793082029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropChargeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C793092029BE3B00A55CEA /* Debug */,
+				29C7930A2029BE3B00A55CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29C7930B2029BE3B00A55CEA /* Build configuration list for PBXNativeTarget "DropChargeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C7930C2029BE3B00A55CEA /* Debug */,
+				29C7930D2029BE3B00A55CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29C792CF2029BE3B00A55CEA /* Project object */;
+}
